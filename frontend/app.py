@@ -228,7 +228,7 @@ with st.form(key="chat_form", clear_on_submit=True):
             time.sleep(0.7)  # Simulate typing delay
             try:
                 response = requests.post(
-                    "http://localhost:8000/chat", json={"message": user_input}
+                    "https://tailor-talk-1.onrender.com/chat", json={"message": user_input}
                 ).json()["response"]
             except Exception:
                 response = "Sorry, I couldn't connect to the backend."
