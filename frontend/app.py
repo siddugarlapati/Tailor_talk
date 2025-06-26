@@ -243,5 +243,4 @@ with st.form(key="chat_form", clear_on_submit=True):
             if(chatDiv) chatDiv.scrollTop = chatDiv.scrollHeight;
             </script>
             """
-        )
-        st.experimental_rerun() 
+        ) 
