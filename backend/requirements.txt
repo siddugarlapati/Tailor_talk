@@ -1,6 +1,7 @@
 fastapi
 uvicorn
-langgraph
-google-auth
+openai
+google-api-python-client
+google-auth-httplib2
 google-auth-oauthlib
-google-api-python-client 
+pytz 
