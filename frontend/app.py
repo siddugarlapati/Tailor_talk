@@ -105,6 +105,7 @@ st.markdown(
         padding: 9px 13px;
         font-size: 1.05rem;
         background: #f4f7fa;
+        color: #23408e;
     }
     .stButton>button {
         background: linear-gradient(90deg, #23408e 60%, #5b8bf7 100%);
@@ -242,4 +243,5 @@ with st.form(key="chat_form", clear_on_submit=True):
             if(chatDiv) chatDiv.scrollTop = chatDiv.scrollHeight;
             </script>
             """
-        ) 
+        )
+        st.experimental_rerun() 
